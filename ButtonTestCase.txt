@@ -1,0 +1,54 @@
+Description: Check if the "View contact info.." button is displayed
+
+Prioriy: Medium
+
+Test Case Type: UI,Regresion
+
+Automation Status: No
+
+Pre-conditions:
+- Desktop
+- Internet connection
+- Nimble CRM account registered
+- Google account registered and logged in
+
+
+Environment: "www.linkedin.com" , set to Romanian language
+
+Test Steps:
+1. Turn on desktop
+2. Connect to the internet
+3. Open the browser
+4. Type the text "www.nimble.com" in the search bar
+5. Press the Enter button
+6. Click on the "Login" button
+7. Open new browser tab
+8. Type "https://crminputs.com/" in the search bar
+9. Press the Enter button
+10. Click the "Setup Chrome Extension..." button
+11. Click the "Nimble CRM" option
+12. Click "Sign up with Google" option
+13. Select and click an google account
+14. Click "Add to chrome" button
+15. Click "Add extension" button
+16. Wait to be redirected to the LinkedIn page
+17. Click "Get started.." button
+18. Click on any profile on the right side of the page
+
+
+
+Test data:
+- "www.nimble.com" used to access the Zendesk website
+- "https://crminputs.com/" used to access the CRM Inputs website
+
+
+Expected Results: The "View contact info.." button, is displayed correctly
+Actual Results: The "View contact info.." button, does not appear
+
+Attachment: https://app.screencastify.com/v3/watch/JVyuIIp4MkaWsTjN811O
+
+Execution Status: Failed
+
+Name of QA: Mihai Mirca
+
+Date and time: 06.01.2025  11:40
